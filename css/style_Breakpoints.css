@@ -1,0 +1,38 @@
+  
+
+
+ @media (max-width: 991.98px) { 
+     
+    .container {
+        width: 70vw;
+        margin: 0px auto 20px auto;
+        padding-bottom: 10px;
+        background-color: hsl(0deg 0% 100%);
+        border-radius: 27px;
+    }
+     
+    .definicoesFlex {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .item {
+        width: 63.5vw;
+        margin: 20px 29px;
+        border: 1px solid rgb(255, 255, 255);
+        background: rgb(255, 255, 255);
+    }
+
+     .container-footer {
+      width: 35vw;
+      margin: 0px auto 40px auto;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13px;
+     
+  }
+ }
+  
+
+
+ 

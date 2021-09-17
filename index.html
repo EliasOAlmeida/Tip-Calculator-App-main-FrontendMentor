@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+ 	<title>
+		Tip Calculator App-main - Elias
+	</title>
+
+    <meta charset="utf-8"> 
+    
+    <!-- CSS -->	
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style_Breakpoints.css">
+   <!-- CSS -->
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+
+   <link rel="icon" type="image/png" sizes="32x32" href="css/img/favicon-32x32.png">
+ </head>
+ <body>
+
+
+	<div class="container-title">
+       <h2>
+		SPLITTER
+	   </h2>
+	</div>
+
+	<section class="container">
+      <div class="conteudo definicoesFlex">
+        <div class="item item_1">
+			<div class="title-conteudo">
+				<h3> Bill </h3> 
+			</div>
+
+			<div class="input-group">
+				<span class="input-group-text" id="basic-addon1"><i class="fas fa-dollar-sign"></i></span>
+				<input type="number" class="form-control"  min="0" max="9999999" id="entradaDinheiro" onkeyup="selecaoDinheiro()">
+			</div>
+
+			<div class="selecao-Porcentagem">
+                <h3>
+					Select Tip %
+				</h3>
+
+				<div class="container-grid">
+                  <button class="box box-1" id="box-5"onclick="selecaoPorcentagem(5)">
+                     5%
+				  </button>
+
+				  <button class="box" id="box-10" onclick="selecaoPorcentagem(10)">
+					10%
+				  </dbuttoniv>
+
+				  <button class="box" id="box-15" onclick="selecaoPorcentagem(15)">
+					15%
+				  </button>
+
+				 <button class="box" id="box-25" onclick="selecaoPorcentagem(25)">
+					25%
+				 </button>
+
+				 <button class="box" id="box-50" onclick="selecaoPorcentagem(50)">
+				   50%
+				 </button>
+
+				 
+				 <input type="number" class="form-control custom" id="box-custom" placeholder="Custom" onclick="selecaoPorcentagem('custom')" onkeyup="inputCustom ()">
+				</div>
+			</div>
+
+
+			<div class="container-pessoas">
+				<div class="title-conteudo">
+					<h3> Number of People </h3> 
+				</div>
+	
+				<div class="input-group">
+					<span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+					<input type="number" class="form-control" min="0"  max="9999999" id="entradaPessoas" onkeyup="selecaoPessoas ()">
+				</div>
+			</div>
+	    </div>
+		
+		<div class="item">
+			 <div class="container-box container-box-grid">
+                <div class="container-box-item">
+                   <h3>
+					Tip Amount
+				   </h3>
+
+				   <p> 
+					/person
+				   </p>
+				</div>
+
+				<div class="container-box-item container-box-style" id="saidaGorjeta">
+				  $0.00
+		     	</div>
+
+				 <div class="container-box-item style-total">
+					<h3>
+						Total
+					   </h3>
+	
+					   <p> 
+						/person
+					   </p>
+					</div>
+
+					<div class="container-box-item container-box-style" id="saidaTotal">
+						$0.00
+					</div>
+			     </div>
+
+				 <div class="container-reset">
+					<div class="box-reset" id="box-reset" onclick="selecaoPorcentagem('reset')">
+						Reset	  
+					 </div>
+				 </div>
+			 </div>
+		</div>
+	  </div>
+	</section>
+
+	<footer class="container-footer">
+		<span>
+            Coded by <a href="https://github.com/EliasOAlmeida">Elias O. Almeida</a>. Challenge by <a href="https://www.frontendmentor.io/">Frontend Mentor.</a> 
+		</span>
+	</footer>
+
+    <!-- SCRIPT -->
+	  <script src="js/script.js"></script>
+	<!-- SCRIPT -->
+ </body>
+</html>
