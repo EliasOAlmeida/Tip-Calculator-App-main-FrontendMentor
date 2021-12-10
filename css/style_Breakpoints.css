@@ -27,22 +27,26 @@
     }
 
     .form-control-number, .box-reset, .box-reset-focus {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .selecao-Porcentagem, .peopl-h3 {
-        margin-top: 50px;
+        margin-top: 80px;
     }
 
     .selecao-Porcentagem h3 {
         font-size: 2.3rem;
     }
     .title-conteudo {
-        font-size: 1.9rem;
+        font-size: 2.5rem;
     }
 
     .box, .input-group span i, .box-desfoco, .custom, .custom-input, .container-box-item h3 {
-        font-size: 2rem;
+        font-size: 2.8rem;
+    }
+
+    .box {
+        padding: 15px 0;
     }
 
     .container-box-item {
@@ -57,14 +61,18 @@
     .container-box-style {
         width: 120%;
         margin-left: -87px;
+        font-size: 3.2rem;
     }
-    
+
+    .container-box-item h3  {
+        font-size: 2rem;
+    }
     .container-box-item p  {
         font-size: 1.6rem;
     }
 
     .box-focus {
-        font-size: 1.9rem;
+        font-size: 2.7rem;
     }
 
     .container-footer div  {
