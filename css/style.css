@@ -20,6 +20,7 @@ html , body {
 .container {
     max-width: 1200px;
     width: 66vw;
+    height: 50%;
     margin: 0px auto 0px auto;
     padding-bottom: 15px;
     background-color: hsl(0deg 0% 100%);
@@ -189,8 +190,7 @@ input[type=number] {
     font-weight: 700;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
-    
+    width: 100%;    
 }
 
 .custom:hover {
@@ -233,6 +233,7 @@ input[type=number] {
 .container-box-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 44px 10px;
+    border: 1px solid rgb(0, 0, 0);
     
 }
 
@@ -301,10 +302,9 @@ input[type=number] {
     margin: 0px 29px;
   }
 
-  .container-footer {
-      width: 40vw;
-      margin: 10px auto 20px auto;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-      font-size: 12px;
+  .container-footer div{
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 10px auto 20px auto;
+     font-size: 12px;
   }

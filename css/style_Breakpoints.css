@@ -1,10 +1,11 @@
   
 
 
- @media (max-width: 991.98px) { 
+ @media (max-width: 1200px) { 
      
     .container {
-        width: 70vw;
+        width: 90vw;
+        height: 90%;
         margin: 0px auto 20px auto;
         padding-bottom: 10px;
         background-color: hsl(0deg 0% 100%);
@@ -15,21 +16,60 @@
         flex-direction: row;
         flex-wrap: nowrap;
         flex-direction: column;
+        justify-content: center;
     }
 
     .item {
-        width: 63.5vw;
+        width: 92.2%;
         margin: 20px 29px;
         border: 1px solid rgb(255, 255, 255);
         background: rgb(255, 255, 255);
     }
-       /* ;) */
-     .container-footer {
-      width: 35vw;
-      margin: 0px auto 40px auto;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 13px;
-  }
+
+    .form-control-number, .box-reset, .box-reset-focus {
+        font-size: 3rem;
+    }
+
+    .selecao-Porcentagem, .peopl-h3 {
+        margin-top: 50px;
+    }
+
+    .selecao-Porcentagem h3 {
+        font-size: 2.3rem;
+    }
+    .title-conteudo {
+        font-size: 1.9rem;
+    }
+
+    .box, .input-group span i, .box-desfoco, .custom, .custom-input, .container-box-item h3 {
+        font-size: 2rem;
+    }
+
+    .container-box-item {
+        margin: 25px 0px 0 0;
+    }
+
+    .container-box-item {
+        width: 70%;
+        margin-left: 20px;
+    }
+
+    .container-box-style {
+        width: 120%;
+        margin-left: -87px;
+    }
+    
+    .container-box-item p  {
+        font-size: 1.6rem;
+    }
+
+    .box-focus {
+        font-size: 1.9rem;
+    }
+
+    .container-footer div  {
+        font-size: 1.2rem;
+    }
  }
   
 
