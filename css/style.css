@@ -232,9 +232,7 @@ input[type=number] {
 
 .container-box-grid {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 44px 10px;
-    border: 1px solid rgb(0, 0, 0);
-    
+    grid-gap: 44px 10px;  
 }
 
 .container-box-item {
